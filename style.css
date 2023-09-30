@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto:wght@300;700&display=swap');
+
+
+body {
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    transition: 2s linear;
+    flex-direction: column;
+    font-family: "Montserrat Alternates", sans-serif;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Lilita One', cursive;
+    margin: 0;
+}
+h2 {
+    text-align: center;
+}
+
+#control {
+    width: 350px;
+    height: 150px;
+    background-color: rgb(129, 126, 126);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding: 0;
+    box-shadow: 0px 0px 8px 1px rgb(24, 24, 24);
+}
+
+li  {
+    list-style-type: none;
+    color: white;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 1.4em;
+    font-weight: 900;
+}
+
+#rythm  {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    
+}
+
+
+#rythm li {
+    margin: 20px;
+    padding: 20px;
+    color: black;
+}
+
+#rythm li:hover {
+    transition: 1s;
+    text-decoration:underline;
+    cursor: pointer;
+}
